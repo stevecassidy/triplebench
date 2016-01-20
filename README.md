@@ -9,3 +9,4 @@ Run an upload test:
 
 python upload_graphs.py testdata
 
+output is written to benchmark.csv
