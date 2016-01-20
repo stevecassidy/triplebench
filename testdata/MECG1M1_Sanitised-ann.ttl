@@ -1,0 +1,2129 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix dada: <http://purl.org/dada/schema/0.2#> .
+@prefix icea: <http://ns.ausnc.org.au/schemas/annotation/ice/> .
+@prefix monasha: <http://ns.ausnc.org.au/schemas/annotation/monash/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5295> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5295L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5296> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5296L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5297> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5297L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5298> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5298L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5299> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5299L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5300> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5300L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5301> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5301L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5302> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5302L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5303> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5303L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5304> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5304L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5305> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5305L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5306> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5306L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5307> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5307L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5308> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5308L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5309> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5309L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5310> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5310L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5311> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5311L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5312> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5312L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5313> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5313L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5314> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5314L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5315> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5315L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5316> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5316L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5317> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5317L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5318> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5318L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5319> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5319L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5320> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5320L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5321> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5321L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5322> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5322L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5323> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5323L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5324> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5324L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5325> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5325L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5326> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5326L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5327> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5327L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5328> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5328L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5329> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5329L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5330> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5330L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5331> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5331L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5332> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5332L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5333> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5333L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5334> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5334L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5335> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5335L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5336> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5336L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5337> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5337L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5338> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5338L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5339> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5339L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5340> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5340L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5341> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5341L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5342> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5342L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5343> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5343L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5344> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5344L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5345> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5345L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5346> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5346L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5347> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5347L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5348> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5348L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5349> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5349L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5350> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5350L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5351> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5351L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5352> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5352L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5353> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5353L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5354> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5354L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5355> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5355L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5356> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5356L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5357> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5357L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5358> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5358L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5359> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5359L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5360> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5360L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5361> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5361L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5362> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5362L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5363> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5363L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5364> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5364L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5365> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5365L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5366> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5366L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5367> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5367L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5368> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5368L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5369> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5369L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5370> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5370L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5371> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5371L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5372> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5372L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5373> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5373L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5374> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5374L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5375> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5375L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5376> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5376L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5377> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5377L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5378> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5378L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5379> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5379L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5380> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5380L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5381> a dada:Annotation;
+    dada:label "laughter";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5381L>;
+    dada:type monasha:laughter .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5382> a dada:Annotation;
+    dada:label "laughter";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5382L>;
+    dada:type monasha:laughter .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5383> a dada:Annotation;
+    dada:label "laughter";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5383L>;
+    dada:type monasha:laughter .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5384> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5384L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5385> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5385L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5386> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5386L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5387> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5387L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5388> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5388L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5389> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5389L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5390> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5390L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5391> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5391L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5392> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5392L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5393> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5393L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5394> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5394L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5395> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5395L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5396> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5396L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5397> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5397L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5398> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5398L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5399> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5399L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5400> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5400L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5401> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5401L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5402> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5402L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5403> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5403L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5404> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5404L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5405> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5405L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5406> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5406L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5407> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5407L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5408> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5408L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5409> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5409L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5410> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5410L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5411> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5411L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5412> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5412L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5413> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5413L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5414> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5414L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5415> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5415L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5416> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5416L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5417> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5417L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5418> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5418L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5419> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5419L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5420> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5420L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5421> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5421L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5422> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5422L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5423> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5423L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5424> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5424L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5425> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5425L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5426> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5426L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5427> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5427L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5428> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5428L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5429> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5429L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5430> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5430L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5431> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5431L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5432> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5432L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5433> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5433L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5434> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5434L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5435> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5435L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5436> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5436L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5437> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5437L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5438> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5438L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5439> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5439L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5440> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5440L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5441> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5441L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5442> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5442L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5443> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5443L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5444> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5444L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5445> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5445L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5446> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5446L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5447> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5447L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5448> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5448L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5449> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5449L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5450> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5450L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5451> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5451L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5452> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5452L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5453> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5453L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5454> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5454L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5455> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5455L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5456> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5456L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5457> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5457L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5458> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5458L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5459> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5459L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5460> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5460L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5461> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5461L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5462> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5462L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5463> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5463L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5464> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5464L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5465> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5465L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5466> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5466L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5467> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5467L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5468> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5468L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5469> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5469L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5470> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5470L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5471> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5471L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5472> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5472L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5473> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5473L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5474> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5474L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5475> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5475L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5476> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5476L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5477> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5477L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5478> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5478L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5479> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5479L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5480> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5480L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5481> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5481L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5482> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5482L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5483> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5483L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5484> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5484L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5485> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5485L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5486> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5486L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5487> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5487L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5488> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5488L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5489> a dada:Annotation;
+    dada:label "[IDENTIFYING MATERIAL REMOVED]";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5489L>;
+    dada:type monasha:redacted .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5490> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5490L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5491> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5491L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5492> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5492L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5493> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5493L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5494> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5494L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5495> a dada:Annotation;
+    dada:label "overlap";
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5495L>;
+    dada:type monasha:overlap .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5496> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5496L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5497> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5497L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5498> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5498L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5499> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5499L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5500> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5500L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5501> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5501L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5502> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5502L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5503> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5503L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5504> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5504L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5505> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/RM>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5505L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5506> a dada:Annotation;
+    ausnc:speakerid <http://ns.ausnc.org.au/corpora/monash/person/CG1M>;
+    dada:partof <http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd>;
+    dada:targets <http://ns.ausnc.org.au/corpora/monash/annotation/5506L>;
+    dada:type icea:speaker .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5295L> a dada:UTF8Region;
+    dada:end 56;
+    dada:start 0 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5296L> a dada:UTF8Region;
+    dada:end 62;
+    dada:start 57 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5297L> a dada:UTF8Region;
+    dada:end 85;
+    dada:start 63 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5298L> a dada:UTF8Region;
+    dada:end 98;
+    dada:start 90 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5299L> a dada:UTF8Region;
+    dada:end 99;
+    dada:start 86 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5300L> a dada:UTF8Region;
+    dada:end 108;
+    dada:start 100 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5301L> a dada:UTF8Region;
+    dada:end 109;
+    dada:start 100 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5302L> a dada:UTF8Region;
+    dada:end 118;
+    dada:start 110 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5303L> a dada:UTF8Region;
+    dada:end 119;
+    dada:start 110 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5304L> a dada:UTF8Region;
+    dada:end 145;
+    dada:start 120 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5305L> a dada:UTF8Region;
+    dada:end 161;
+    dada:start 153 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5306L> a dada:UTF8Region;
+    dada:end 205;
+    dada:start 168 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5307L> a dada:UTF8Region;
+    dada:end 206;
+    dada:start 146 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5308L> a dada:UTF8Region;
+    dada:end 243;
+    dada:start 207 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5309L> a dada:UTF8Region;
+    dada:end 366;
+    dada:start 244 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5310L> a dada:UTF8Region;
+    dada:end 395;
+    dada:start 367 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5311L> a dada:UTF8Region;
+    dada:end 474;
+    dada:start 437 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5312L> a dada:UTF8Region;
+    dada:end 475;
+    dada:start 396 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5313L> a dada:UTF8Region;
+    dada:end 509;
+    dada:start 476 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5314L> a dada:UTF8Region;
+    dada:end 564;
+    dada:start 510 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5315L> a dada:UTF8Region;
+    dada:end 570;
+    dada:start 565 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5316L> a dada:UTF8Region;
+    dada:end 652;
+    dada:start 571 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5317L> a dada:UTF8Region;
+    dada:end 732;
+    dada:start 653 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5318L> a dada:UTF8Region;
+    dada:end 773;
+    dada:start 733 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5319L> a dada:UTF8Region;
+    dada:end 799;
+    dada:start 774 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5320L> a dada:UTF8Region;
+    dada:end 991;
+    dada:start 800 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5321L> a dada:UTF8Region;
+    dada:end 1048;
+    dada:start 992 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5322L> a dada:UTF8Region;
+    dada:end 1209;
+    dada:start 1049 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5323L> a dada:UTF8Region;
+    dada:end 1268;
+    dada:start 1210 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5324L> a dada:UTF8Region;
+    dada:end 1296;
+    dada:start 1288 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5325L> a dada:UTF8Region;
+    dada:end 1334;
+    dada:start 1326 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5326L> a dada:UTF8Region;
+    dada:end 1335;
+    dada:start 1269 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5327L> a dada:UTF8Region;
+    dada:end 1389;
+    dada:start 1336 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5328L> a dada:UTF8Region;
+    dada:end 1499;
+    dada:start 1390 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5329L> a dada:UTF8Region;
+    dada:end 1506;
+    dada:start 1500 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5330L> a dada:UTF8Region;
+    dada:end 1512;
+    dada:start 1507 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5331L> a dada:UTF8Region;
+    dada:end 1560;
+    dada:start 1513 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5332L> a dada:UTF8Region;
+    dada:end 1587;
+    dada:start 1561 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5333L> a dada:UTF8Region;
+    dada:end 1623;
+    dada:start 1588 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5334L> a dada:UTF8Region;
+    dada:end 1638;
+    dada:start 1624 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5335L> a dada:UTF8Region;
+    dada:end 1669;
+    dada:start 1639 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5336L> a dada:UTF8Region;
+    dada:end 1687;
+    dada:start 1670 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5337L> a dada:UTF8Region;
+    dada:end 1705;
+    dada:start 1688 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5338L> a dada:UTF8Region;
+    dada:end 1711;
+    dada:start 1706 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5339L> a dada:UTF8Region;
+    dada:end 1748;
+    dada:start 1712 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5340L> a dada:UTF8Region;
+    dada:end 1804;
+    dada:start 1749 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5341L> a dada:UTF8Region;
+    dada:end 1828;
+    dada:start 1805 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5342L> a dada:UTF8Region;
+    dada:end 1834;
+    dada:start 1829 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5343L> a dada:UTF8Region;
+    dada:end 1847;
+    dada:start 1835 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5344L> a dada:UTF8Region;
+    dada:end 1857;
+    dada:start 1853 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5345L> a dada:UTF8Region;
+    dada:end 1857;
+    dada:start 1848 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5346L> a dada:UTF8Region;
+    dada:end 1860;
+    dada:start 1858 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5347L> a dada:UTF8Region;
+    dada:end 1873;
+    dada:start 1858 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5348L> a dada:UTF8Region;
+    dada:end 1903;
+    dada:start 1892 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5349L> a dada:UTF8Region;
+    dada:end 1903;
+    dada:start 1874 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5350L> a dada:UTF8Region;
+    dada:end 1909;
+    dada:start 1904 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5351L> a dada:UTF8Region;
+    dada:end 1955;
+    dada:start 1904 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5352L> a dada:UTF8Region;
+    dada:end 2193;
+    dada:start 2189 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5353L> a dada:UTF8Region;
+    dada:end 2194;
+    dada:start 1956 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5354L> a dada:UTF8Region;
+    dada:end 2200;
+    dada:start 2195 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5355L> a dada:UTF8Region;
+    dada:end 2257;
+    dada:start 2195 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5356L> a dada:UTF8Region;
+    dada:end 2275;
+    dada:start 2258 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5357L> a dada:UTF8Region;
+    dada:end 2443;
+    dada:start 2276 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5358L> a dada:UTF8Region;
+    dada:end 2492;
+    dada:start 2444 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5359L> a dada:UTF8Region;
+    dada:end 2685;
+    dada:start 2493 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5360L> a dada:UTF8Region;
+    dada:end 2727;
+    dada:start 2686 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5361L> a dada:UTF8Region;
+    dada:end 2733;
+    dada:start 2728 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5362L> a dada:UTF8Region;
+    dada:end 2747;
+    dada:start 2734 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5363L> a dada:UTF8Region;
+    dada:end 2765;
+    dada:start 2748 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5364L> a dada:UTF8Region;
+    dada:end 2781;
+    dada:start 2766 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5365L> a dada:UTF8Region;
+    dada:end 2915;
+    dada:start 2782 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5366L> a dada:UTF8Region;
+    dada:end 2952;
+    dada:start 2916 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5367L> a dada:UTF8Region;
+    dada:end 3054;
+    dada:start 3046 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5368L> a dada:UTF8Region;
+    dada:end 3054;
+    dada:start 2953 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5369L> a dada:UTF8Region;
+    dada:end 3060;
+    dada:start 3055 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5370L> a dada:UTF8Region;
+    dada:end 3060;
+    dada:start 3055 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5371L> a dada:UTF8Region;
+    dada:end 3071;
+    dada:start 3066 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5372L> a dada:UTF8Region;
+    dada:end 3071;
+    dada:start 3061 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5373L> a dada:UTF8Region;
+    dada:end 3076;
+    dada:start 3072 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5374L> a dada:UTF8Region;
+    dada:end 3181;
+    dada:start 3072 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5375L> a dada:UTF8Region;
+    dada:end 3509;
+    dada:start 3182 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5376L> a dada:UTF8Region;
+    dada:end 3648;
+    dada:start 3510 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5377L> a dada:UTF8Region;
+    dada:end 4116;
+    dada:start 3649 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5378L> a dada:UTF8Region;
+    dada:end 4122;
+    dada:start 4117 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5379L> a dada:UTF8Region;
+    dada:end 4143;
+    dada:start 4123 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5380L> a dada:UTF8Region;
+    dada:end 4185;
+    dada:start 4144 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5381L> a dada:UTF8Region;
+    dada:end 4319;
+    dada:start 4319 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5382L> a dada:UTF8Region;
+    dada:end 4319;
+    dada:start 4319 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5383L> a dada:UTF8Region;
+    dada:end 4319;
+    dada:start 4319 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5384L> a dada:UTF8Region;
+    dada:end 4354;
+    dada:start 4186 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5385L> a dada:UTF8Region;
+    dada:end 4397;
+    dada:start 4355 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5386L> a dada:UTF8Region;
+    dada:end 4731;
+    dada:start 4398 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5387L> a dada:UTF8Region;
+    dada:end 4784;
+    dada:start 4732 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5388L> a dada:UTF8Region;
+    dada:end 4960;
+    dada:start 4785 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5389L> a dada:UTF8Region;
+    dada:end 5082;
+    dada:start 4961 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5390L> a dada:UTF8Region;
+    dada:end 5249;
+    dada:start 5083 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5391L> a dada:UTF8Region;
+    dada:end 5269;
+    dada:start 5250 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5392L> a dada:UTF8Region;
+    dada:end 5288;
+    dada:start 5280 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5393L> a dada:UTF8Region;
+    dada:end 5504;
+    dada:start 5496 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5394L> a dada:UTF8Region;
+    dada:end 5549;
+    dada:start 5270 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5395L> a dada:UTF8Region;
+    dada:end 5606;
+    dada:start 5550 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5396L> a dada:UTF8Region;
+    dada:end 5702;
+    dada:start 5700 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5397L> a dada:UTF8Region;
+    dada:end 5703;
+    dada:start 5607 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5398L> a dada:UTF8Region;
+    dada:end 5710;
+    dada:start 5704 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5399L> a dada:UTF8Region;
+    dada:end 5793;
+    dada:start 5704 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5400L> a dada:UTF8Region;
+    dada:end 5921;
+    dada:start 5794 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5401L> a dada:UTF8Region;
+    dada:end 5979;
+    dada:start 5922 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5402L> a dada:UTF8Region;
+    dada:end 6069;
+    dada:start 6061 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5403L> a dada:UTF8Region;
+    dada:end 6069;
+    dada:start 5980 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5404L> a dada:UTF8Region;
+    dada:end 6076;
+    dada:start 6070 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5405L> a dada:UTF8Region;
+    dada:end 6160;
+    dada:start 6070 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5406L> a dada:UTF8Region;
+    dada:end 6172;
+    dada:start 6161 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5407L> a dada:UTF8Region;
+    dada:end 6203;
+    dada:start 6173 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5408L> a dada:UTF8Region;
+    dada:end 6274;
+    dada:start 6204 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5409L> a dada:UTF8Region;
+    dada:end 6280;
+    dada:start 6275 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5410L> a dada:UTF8Region;
+    dada:end 6306;
+    dada:start 6298 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5411L> a dada:UTF8Region;
+    dada:end 6306;
+    dada:start 6281 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5412L> a dada:UTF8Region;
+    dada:end 6312;
+    dada:start 6307 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5413L> a dada:UTF8Region;
+    dada:end 6325;
+    dada:start 6317 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5414L> a dada:UTF8Region;
+    dada:end 6325;
+    dada:start 6313 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5415L> a dada:UTF8Region;
+    dada:end 6331;
+    dada:start 6326 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5416L> a dada:UTF8Region;
+    dada:end 6344;
+    dada:start 6332 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5417L> a dada:UTF8Region;
+    dada:end 6385;
+    dada:start 6345 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5418L> a dada:UTF8Region;
+    dada:end 6499;
+    dada:start 6491 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5419L> a dada:UTF8Region;
+    dada:end 6500;
+    dada:start 6386 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5420L> a dada:UTF8Region;
+    dada:end 6506;
+    dada:start 6501 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5421L> a dada:UTF8Region;
+    dada:end 6524;
+    dada:start 6516 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5422L> a dada:UTF8Region;
+    dada:end 6525;
+    dada:start 6507 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5423L> a dada:UTF8Region;
+    dada:end 6574;
+    dada:start 6526 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5424L> a dada:UTF8Region;
+    dada:end 6756;
+    dada:start 6575 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5425L> a dada:UTF8Region;
+    dada:end 6806;
+    dada:start 6757 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5426L> a dada:UTF8Region;
+    dada:end 7187;
+    dada:start 6807 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5427L> a dada:UTF8Region;
+    dada:end 7191;
+    dada:start 7188 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5428L> a dada:UTF8Region;
+    dada:end 7231;
+    dada:start 7192 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5429L> a dada:UTF8Region;
+    dada:end 7254;
+    dada:start 7232 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5430L> a dada:UTF8Region;
+    dada:end 7260;
+    dada:start 7255 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5431L> a dada:UTF8Region;
+    dada:end 7292;
+    dada:start 7261 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5432L> a dada:UTF8Region;
+    dada:end 7502;
+    dada:start 7293 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5433L> a dada:UTF8Region;
+    dada:end 7563;
+    dada:start 7503 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5434L> a dada:UTF8Region;
+    dada:end 7984;
+    dada:start 7564 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5435L> a dada:UTF8Region;
+    dada:end 8024;
+    dada:start 7985 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5436L> a dada:UTF8Region;
+    dada:end 8066;
+    dada:start 8025 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5437L> a dada:UTF8Region;
+    dada:end 8098;
+    dada:start 8067 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5438L> a dada:UTF8Region;
+    dada:end 8147;
+    dada:start 8099 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5439L> a dada:UTF8Region;
+    dada:end 8162;
+    dada:start 8148 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5440L> a dada:UTF8Region;
+    dada:end 8192;
+    dada:start 8163 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5441L> a dada:UTF8Region;
+    dada:end 8235;
+    dada:start 8193 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5442L> a dada:UTF8Region;
+    dada:end 8255;
+    dada:start 8236 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5443L> a dada:UTF8Region;
+    dada:end 8283;
+    dada:start 8256 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5444L> a dada:UTF8Region;
+    dada:end 8594;
+    dada:start 8284 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5445L> a dada:UTF8Region;
+    dada:end 8661;
+    dada:start 8595 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5446L> a dada:UTF8Region;
+    dada:end 9080;
+    dada:start 8662 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5447L> a dada:UTF8Region;
+    dada:end 9145;
+    dada:start 9081 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5448L> a dada:UTF8Region;
+    dada:end 9323;
+    dada:start 9146 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5449L> a dada:UTF8Region;
+    dada:end 9452;
+    dada:start 9324 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5450L> a dada:UTF8Region;
+    dada:end 9479;
+    dada:start 9453 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5451L> a dada:UTF8Region;
+    dada:end 9522;
+    dada:start 9480 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5452L> a dada:UTF8Region;
+    dada:end 9528;
+    dada:start 9523 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5453L> a dada:UTF8Region;
+    dada:end 9577;
+    dada:start 9575 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5454L> a dada:UTF8Region;
+    dada:end 9577;
+    dada:start 9529 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5455L> a dada:UTF8Region;
+    dada:end 9583;
+    dada:start 9578 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5456L> a dada:UTF8Region;
+    dada:end 9583;
+    dada:start 9578 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5457L> a dada:UTF8Region;
+    dada:end 9598;
+    dada:start 9584 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5458L> a dada:UTF8Region;
+    dada:end 9614;
+    dada:start 9599 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5459L> a dada:UTF8Region;
+    dada:end 9656;
+    dada:start 9615 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5460L> a dada:UTF8Region;
+    dada:end 10300;
+    dada:start 9657 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5461L> a dada:UTF8Region;
+    dada:end 10338;
+    dada:start 10301 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5462L> a dada:UTF8Region;
+    dada:end 10419;
+    dada:start 10339 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5463L> a dada:UTF8Region;
+    dada:end 10426;
+    dada:start 10420 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5464L> a dada:UTF8Region;
+    dada:end 10486;
+    dada:start 10427 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5465L> a dada:UTF8Region;
+    dada:end 10553;
+    dada:start 10487 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5466L> a dada:UTF8Region;
+    dada:end 10902;
+    dada:start 10554 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5467L> a dada:UTF8Region;
+    dada:end 10940;
+    dada:start 10903 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5468L> a dada:UTF8Region;
+    dada:end 10946;
+    dada:start 10941 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5469L> a dada:UTF8Region;
+    dada:end 10946;
+    dada:start 10941 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5470L> a dada:UTF8Region;
+    dada:end 10950;
+    dada:start 10947 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5471L> a dada:UTF8Region;
+    dada:end 11112;
+    dada:start 10947 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5472L> a dada:UTF8Region;
+    dada:end 11521;
+    dada:start 11113 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5473L> a dada:UTF8Region;
+    dada:end 11586;
+    dada:start 11522 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5474L> a dada:UTF8Region;
+    dada:end 11785;
+    dada:start 11587 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5475L> a dada:UTF8Region;
+    dada:end 11837;
+    dada:start 11786 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5476L> a dada:UTF8Region;
+    dada:end 11843;
+    dada:start 11838 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5477L> a dada:UTF8Region;
+    dada:end 11864;
+    dada:start 11844 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5478L> a dada:UTF8Region;
+    dada:end 11953;
+    dada:start 11865 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5479L> a dada:UTF8Region;
+    dada:end 12078;
+    dada:start 11954 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5480L> a dada:UTF8Region;
+    dada:end 12418;
+    dada:start 12079 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5481L> a dada:UTF8Region;
+    dada:end 12577;
+    dada:start 12419 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5482L> a dada:UTF8Region;
+    dada:end 12658;
+    dada:start 12578 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5483L> a dada:UTF8Region;
+    dada:end 12707;
+    dada:start 12659 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5484L> a dada:UTF8Region;
+    dada:end 12721;
+    dada:start 12708 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5485L> a dada:UTF8Region;
+    dada:end 13183;
+    dada:start 12722 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5486L> a dada:UTF8Region;
+    dada:end 13459;
+    dada:start 13442 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5487L> a dada:UTF8Region;
+    dada:end 13459;
+    dada:start 13184 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5488L> a dada:UTF8Region;
+    dada:end 13467;
+    dada:start 13460 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5489L> a dada:UTF8Region;
+    dada:end 13504;
+    dada:start 13496 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5490L> a dada:UTF8Region;
+    dada:end 13519;
+    dada:start 13460 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5491L> a dada:UTF8Region;
+    dada:end 13542;
+    dada:start 13520 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5492L> a dada:UTF8Region;
+    dada:end 13548;
+    dada:start 13543 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5493L> a dada:UTF8Region;
+    dada:end 13605;
+    dada:start 13579 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5494L> a dada:UTF8Region;
+    dada:end 13605;
+    dada:start 13549 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5495L> a dada:UTF8Region;
+    dada:end 13633;
+    dada:start 13606 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5496L> a dada:UTF8Region;
+    dada:end 13646;
+    dada:start 13606 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5497L> a dada:UTF8Region;
+    dada:end 13652;
+    dada:start 13647 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5498L> a dada:UTF8Region;
+    dada:end 13658;
+    dada:start 13653 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5499L> a dada:UTF8Region;
+    dada:end 13694;
+    dada:start 13659 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5500L> a dada:UTF8Region;
+    dada:end 13705;
+    dada:start 13695 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5501L> a dada:UTF8Region;
+    dada:end 13735;
+    dada:start 13706 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5502L> a dada:UTF8Region;
+    dada:end 13748;
+    dada:start 13736 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5503L> a dada:UTF8Region;
+    dada:end 13775;
+    dada:start 13749 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5504L> a dada:UTF8Region;
+    dada:end 13785;
+    dada:start 13776 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5505L> a dada:UTF8Region;
+    dada:end 13790;
+    dada:start 13786 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/5506L> a dada:UTF8Region;
+    dada:end 13795;
+    dada:start 13791 .
+
+<http://ns.ausnc.org.au/corpora/monash/annotation/c009cc7a-42fa-4b7b-b03f-788656676fdd> a dada:AnnotationCollection;
+    dada:annotates <http://ns.ausnc.org.au/corpora/monash/items/MECG1M1_Sanitised> .
+

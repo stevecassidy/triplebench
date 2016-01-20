@@ -1,0 +1,67 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MECG4MA_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "CG4M.A";
+    ausnc:FathersEthnicity "Born in Melbourne";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandfathersEthnicity "Born in Australia";
+    ausnc:MaternalGrandmothersEthnicity "Born in Australia";
+    ausnc:MothersEthnicity "Born in Melbourne";
+    ausnc:PaternalGrandfathersEthnicity "Born in Australia";
+    ausnc:PaternalGrandmothersEthnicity "Born in Australia";
+    ausnc:STUDENTSINITIALS "JC";
+    ausnc:TRANSCRIBER "AM";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 6277;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The family ethnicity is Australian, with Scottish background on the
+informant’s mother’s side. He is studying Latin and French, and is hoping
+to join an exchange program either to France or Quebec. He views his Latin
+classes as interesting and constructive.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'CG4MB (18 years old)\\n______________________________________________________________']";
+    dc:identifier "MECG4MA_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/CG4M> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/CG4M> a foaf:Person;
+    ausnc:birthplace "Australia (Melbourne)";
+    ausnc:role "primary";
+    ausnc:school "CG";
+    foaf:age "16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Original> a foaf:Document;
+    dc:extent 83968;
+    dc:identifier "MECG4MA_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MECG4MA_Sanitised.doc>;
+    dc:title "MECG4MA_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Raw> a foaf:Document;
+    dc:extent 40087;
+    dc:identifier "MECG4MA_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MECG4MA_Sanitised-raw.txt>;
+    dc:title "MECG4MA_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG4MA_Sanitised#Text> a foaf:Document;
+    dc:extent 36678;
+    dc:identifier "MECG4MA_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MECG4MA_Sanitised-plain.txt>;
+    dc:title "MECG4MA_Sanitised#Text";
+    dc:type "Text" .
+

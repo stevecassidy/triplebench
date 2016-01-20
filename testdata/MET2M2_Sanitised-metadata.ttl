@@ -1,0 +1,73 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MET2M2_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "T2M.2";
+    ausnc:FathersEthnicity "Born in England";
+    ausnc:INTERVIEWERifrelevant "RF3";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandfathersEthnicity "Australian?";
+    ausnc:MaternalGrandmothersEthnicity "Australian?";
+    ausnc:MothersEthnicity "Born in Australia";
+    ausnc:PaternalGrandfathersEthnicity "English?";
+    ausnc:PaternalGrandmothersEthnicity "English?";
+    ausnc:STUDENTSINITIALS "RB";
+    ausnc:TRANSCRIBER "TB";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 1194;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant was born in France and lived there until he was three years
+old. His father was born in England but lived in Australia for most of his
+life. His parents can both speak French, and his father can also speak
+Indonesian. The informant speaks only English at home and to extended
+family (none of them have a French background, for instance). He is
+learning French at school, but is ‘pretty hopeless’ at it.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MET2M2_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/RF3>,
+        <http://ns.ausnc.org.au/corpora/monash/person/T2M> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/person/T2M> a foaf:Person;
+    ausnc:birthplace "France";
+    ausnc:role "primary";
+    ausnc:school "T";
+    foaf:age "15-16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Original> a foaf:Document;
+    dc:extent 43520;
+    dc:identifier "MET2M2_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MET2M2_Sanitised.doc>;
+    dc:title "MET2M2_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Raw> a foaf:Document;
+    dc:extent 8518;
+    dc:identifier "MET2M2_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MET2M2_Sanitised-raw.txt>;
+    dc:title "MET2M2_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET2M2_Sanitised#Text> a foaf:Document;
+    dc:extent 6263;
+    dc:identifier "MET2M2_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MET2M2_Sanitised-plain.txt>;
+    dc:title "MET2M2_Sanitised#Text";
+    dc:type "Text" .
+

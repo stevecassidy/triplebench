@@ -1,0 +1,67 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH1M2_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH1M.2";
+    ausnc:FathersEthnicity "British or German";
+    ausnc:INTERVIEWERifrelevant "JC (RF3)";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandmothersEthnicity "(Mentions a grandmother who died in Australia, but also others who are living in England and Scotland)";
+    ausnc:MothersEthnicity "British or German";
+    ausnc:STUDENTSINITIALS "JF";
+    ausnc:TRANSCRIBER "SE";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 658;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """Doesn’t know where his parents were born - says that one was born in
+Germany and one in England, or maybe both in England. Mentions grandparents
+in England and Scotland""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'________________________________________________________________']";
+    dc:identifier "MEBH1M2_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH1M>,
+        <http://ns.ausnc.org.au/corpora/monash/person/RF3> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH1M> a foaf:Person;
+    ausnc:birthplace "Born in Australia? (Presumably, but the question was not actually asked)";
+    ausnc:role "primary";
+    ausnc:school "BH";
+    foaf:age "15";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Original> a foaf:Document;
+    dc:extent 45056;
+    dc:identifier "MEBH1M2_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH1M2_Sanitised.doc>;
+    dc:title "MEBH1M2_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Raw> a foaf:Document;
+    dc:extent 8549;
+    dc:identifier "MEBH1M2_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH1M2_Sanitised-raw.txt>;
+    dc:title "MEBH1M2_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH1M2_Sanitised#Text> a foaf:Document;
+    dc:extent 6052;
+    dc:identifier "MEBH1M2_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH1M2_Sanitised-plain.txt>;
+    dc:title "MEBH1M2_Sanitised#Text";
+    dc:type "Text" .
+

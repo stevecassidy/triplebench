@@ -1,0 +1,77 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MECG6MA_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "CG6M:.A";
+    ausnc:FathersEthnicity "Born in New South Wales";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandfathersEthnicity "Born in Australia";
+    ausnc:MaternalGrandmothersEthnicity "Born in Australia";
+    ausnc:MothersEthnicity "Born in Victoria";
+    ausnc:PaternalGrandfathersEthnicity "Born in Germany (doesn’t speak German, lives in Australia)";
+    ausnc:PaternalGrandmothersEthnicity "Born in England";
+    ausnc:STUDENTSINITIALS "GW";
+    ausnc:TRANSCRIBER "AB (revised by LM)";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 2030;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant states that his paternal grandfather was born in Germany,
+but ‘isn’t German’. Although the informant’s father studied German at
+school, there is no tradition of speaking German in the home. The informant
+himself studies French and Latin at school, and says that he enjoys Latin.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MECG6MA_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/CG6M>,
+        <http://ns.ausnc.org.au/corpora/monash/person/CG6MFa>,
+        <http://ns.ausnc.org.au/corpora/monash/person/CG6MMo> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/CG6M> a foaf:Person;
+    ausnc:birthplace "Australia (Melbourne)";
+    ausnc:role "primary";
+    ausnc:school "CG";
+    foaf:age "16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/CG6MFa> a foaf:Person;
+    ausnc:relationship "father";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/CG6MMo> a foaf:Person;
+    ausnc:relationship "mother";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Original> a foaf:Document;
+    dc:extent 73728;
+    dc:identifier "MECG6MA_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MECG6MA_Sanitised.doc>;
+    dc:title "MECG6MA_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Raw> a foaf:Document;
+    dc:extent 26300;
+    dc:identifier "MECG6MA_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MECG6MA_Sanitised-raw.txt>;
+    dc:title "MECG6MA_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MECG6MA_Sanitised#Text> a foaf:Document;
+    dc:extent 11073;
+    dc:identifier "MECG6MA_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MECG6MA_Sanitised-plain.txt>;
+    dc:title "MECG6MA_Sanitised#Text";
+    dc:type "Text" .
+

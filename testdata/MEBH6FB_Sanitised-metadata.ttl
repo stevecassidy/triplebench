@@ -1,0 +1,72 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH6FB_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH6F.B";
+    ausnc:FathersEthnicity "Born in Adelaide";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MothersEthnicity "Born in Adelaide";
+    ausnc:STUDENTSINITIALS "NF";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 370;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant’s parents were both born in Adelaide, and moved to Victoria
+shortly before she was born. She is very keen to do tertiary study in
+either England or Wales, being attracted both by the scenery and the music
+scene.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'(interview runs for 2.4 minutes)']";
+    dc:identifier "MEBH6FB_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH6F>,
+        <http://ns.ausnc.org.au/corpora/monash/person/BH6FP1f>,
+        <http://ns.ausnc.org.au/corpora/monash/person/BH6FP1m> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH6F> a foaf:Person;
+    ausnc:birthplace "Born in Australia";
+    ausnc:role "primary";
+    ausnc:school "BH";
+    foaf:age "15-16";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH6FP1f> a foaf:Person;
+    ausnc:suffix "P1f";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH6FP1m> a foaf:Person;
+    ausnc:suffix "P1m";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Original> a foaf:Document;
+    dc:extent 37376;
+    dc:identifier "MEBH6FB_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH6FB_Sanitised.doc>;
+    dc:title "MEBH6FB_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Raw> a foaf:Document;
+    dc:extent 3858;
+    dc:identifier "MEBH6FB_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH6FB_Sanitised-raw.txt>;
+    dc:title "MEBH6FB_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH6FB_Sanitised#Text> a foaf:Document;
+    dc:extent 2154;
+    dc:identifier "MEBH6FB_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH6FB_Sanitised-plain.txt>;
+    dc:title "MEBH6FB_Sanitised#Text";
+    dc:type "Text" .
+

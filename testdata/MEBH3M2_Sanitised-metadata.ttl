@@ -1,0 +1,66 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH3M2_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH3M.2";
+    ausnc:FathersEthnicity "Australian";
+    ausnc:INTERVIEWERifrelevant "JC (RF3)";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandmothersEthnicity "Not asked about grandparents’ ethnicity";
+    ausnc:MothersEthnicity "Australian";
+    ausnc:STUDENTSINITIALS "PR";
+    ausnc:TRANSCRIBER "SE";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 1060;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The family language is English. The informant has studied Japanese and
+French at school and stopped learning French at Year 7. He enjoys talking
+to America on-line.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MEBH3M2_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH3M>,
+        <http://ns.ausnc.org.au/corpora/monash/person/RF3> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH3M> a foaf:Person;
+    ausnc:role "primary";
+    ausnc:school "BH";
+    foaf:age "16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Original> a foaf:Document;
+    dc:extent 64000;
+    dc:identifier "MEBH3M2_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH3M2_Sanitised.doc>;
+    dc:title "MEBH3M2_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Raw> a foaf:Document;
+    dc:extent 11136;
+    dc:identifier "MEBH3M2_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH3M2_Sanitised-raw.txt>;
+    dc:title "MEBH3M2_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH3M2_Sanitised#Text> a foaf:Document;
+    dc:extent 9189;
+    dc:identifier "MEBH3M2_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH3M2_Sanitised-plain.txt>;
+    dc:title "MEBH3M2_Sanitised#Text";
+    dc:type "Text" .
+

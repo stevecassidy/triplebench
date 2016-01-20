@@ -1,0 +1,9 @@
+[DEFAULT]
+SESAME_SERVER = http://43.240.99.102//openrdf-sesame/repositories/test1
+RDF_GRAPH_FORMAT=nt
+
+# BATCH_UPLOAD_RDF and BATCH_UPLOAD_SIZE control how we send data to sesame
+# if yes then we send in batches of a given number of files
+# if no we send one file at a time
+BATCH_UPLOAD_RDF = yes
+BATCH_UPLOAD_SIZE = 100

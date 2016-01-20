@@ -1,0 +1,67 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH2FB_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH2F.B";
+    ausnc:STUDENTSINITIALS "RA";
+    ausnc:TRANSCRIBER "KH";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 4047;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant wasn’t asked where her parents were born, mentions that
+grandparents were ‘also in the country’ when she visited London, but they
+could have also been travelling. She does however also mention ‘relatives
+and friends’ in England. She has been to England and America, and would
+really like to go back to America and see a lot more of it.
+It should be noted that this conversation consists of anywhere between
+five and ten people, both male and female, all talking to each other at
+once.  It is practically impossible to determine who is speaking when.
+There is a great deal of background noise, and the lines of conversation
+transcribed below are merely the parts of the conversation which are picked
+up most clearly by the tape recorder.  The codes used for participants
+really only identify whether the speaker is male or female, as it is so
+difficult to identify particular participants. BH2F and BH2M are not
+necessarily the same person the whole conversation, it simply identifies
+the speaker as male or female and that the transcriber was unsure who it
+was speaking.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'BH2F[1]\\nBH2M[2]\\n\\n\\n\\nBH2M: [c\\u2019mon]\\nBH2F: [don\\u2019t!]\\nBH2F: [d\\u2019you have a lighter?]\\nBH2M: [huh?]\\nBH2F: [yeah]\\nBH2F: [@@@]\\nBH2M: [ahhh..gotta you again!]\\nBH2M: I can\\u2019t find a job..I got no skills so I got [nooooo]']";
+    dc:identifier "MEBH2FB_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH2> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH2> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Original> a foaf:Document;
+    dc:extent 73728;
+    dc:identifier "MEBH2FB_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH2FB_Sanitised.doc>;
+    dc:title "MEBH2FB_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Raw> a foaf:Document;
+    dc:extent 25935;
+    dc:identifier "MEBH2FB_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH2FB_Sanitised-raw.txt>;
+    dc:title "MEBH2FB_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2FB_Sanitised#Text> a foaf:Document;
+    dc:extent 22112;
+    dc:identifier "MEBH2FB_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH2FB_Sanitised-plain.txt>;
+    dc:title "MEBH2FB_Sanitised#Text";
+    dc:type "Text" .
+

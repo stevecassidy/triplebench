@@ -1,0 +1,75 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH4M1_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH4M.1";
+    ausnc:FathersEthnicity "British (Northern England)";
+    ausnc:INTERVIEWERifrelevant "JC (RF3)";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MaternalGrandfathersEthnicity "British (Northern England)";
+    ausnc:MaternalGrandmothersEthnicity "British (Northern England)";
+    ausnc:MothersEthnicity "British (Northern England)";
+    ausnc:PaternalGrandfathersEthnicity "British (Northern England)";
+    ausnc:PaternalGrandmothersEthnicity "British (Northern England)";
+    ausnc:STUDENTSINITIALS "PS";
+    ausnc:TRANSCRIBER "SE";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 2452;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """This informant was born in England (Manchester) and came to Australia when
+he was three years old. He returned to Manchester when he was seven, and
+again when he was eleven (doesn’t mention the length of time, but says that
+he ‘lived in Manchester’). All the members of his immediate family were
+born in England. He says that his mother still retains her Manchester
+accent, and also speaks French fluently, as she lived in France for a year
+when she was eighteen and is still actively developing her skills in the
+language.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MEBH4M1_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH4M>,
+        <http://ns.ausnc.org.au/corpora/monash/person/RF3> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH4M> a foaf:Person;
+    ausnc:birthplace "Born in England (Manchester)";
+    ausnc:role "primary";
+    ausnc:school "BH";
+    foaf:age "16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Original> a foaf:Document;
+    dc:extent 51200;
+    dc:identifier "MEBH4M1_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH4M1_Sanitised.doc>;
+    dc:title "MEBH4M1_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Raw> a foaf:Document;
+    dc:extent 16037;
+    dc:identifier "MEBH4M1_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH4M1_Sanitised-raw.txt>;
+    dc:title "MEBH4M1_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH4M1_Sanitised#Text> a foaf:Document;
+    dc:extent 12882;
+    dc:identifier "MEBH4M1_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH4M1_Sanitised-plain.txt>;
+    dc:title "MEBH4M1_Sanitised#Text";
+    dc:type "Text" .
+

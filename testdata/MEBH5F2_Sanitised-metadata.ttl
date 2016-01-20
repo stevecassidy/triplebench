@@ -1,0 +1,60 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH5F2_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH5M.2";
+    ausnc:FathersEthnicity "Born in Australia (in the local area)";
+    ausnc:INTERVIEWERifrelevant "JC (RF3)";
+    ausnc:LanguagesSpokenathome "English";
+    ausnc:MothersEthnicity "Born in Scotland";
+    ausnc:STUDENTSINITIALS "LM";
+    ausnc:TRANSCRIBER "AM";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 998;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant’s mother was born in the north east of Scotland and came to
+Australia when she was about twelve. The informant is making plans to visit
+Scotland with her mother at the end of Year twelve, and also to live in
+England with a friend as she has relatives there as well as some friends
+(it doesn’t appear that she has travelled to England or Scotland before)""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'__________________________________________________________']";
+    dc:identifier "MEBH5F2_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/RF3> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Original> a foaf:Document;
+    dc:extent 48640;
+    dc:identifier "MEBH5F2_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH5F2_Sanitised.doc>;
+    dc:title "MEBH5F2_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Raw> a foaf:Document;
+    dc:extent 10403;
+    dc:identifier "MEBH5F2_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH5F2_Sanitised-raw.txt>;
+    dc:title "MEBH5F2_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH5F2_Sanitised#Text> a foaf:Document;
+    dc:extent 7712;
+    dc:identifier "MEBH5F2_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH5F2_Sanitised-plain.txt>;
+    dc:title "MEBH5F2_Sanitised#Text";
+    dc:type "Text" .
+

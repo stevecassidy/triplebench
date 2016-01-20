@@ -1,0 +1,64 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MET3M1_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "T3M.1";
+    ausnc:FathersEthnicity "Born in Australia";
+    ausnc:INTERVIEWERifrelevant "RM1";
+    ausnc:MothersEthnicity "Born in Australia";
+    ausnc:STUDENTSINITIALS "JC";
+    ausnc:TRANSCRIBER "JC";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 1091;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """There appears to be quite a large section missing from the first part of
+the interview (when presumably questions about birthplace, etc., were asked
+- SK.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MET3M1_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/RM1>,
+        <http://ns.ausnc.org.au/corpora/monash/person/T3M> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RM1> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/person/T3M> a foaf:Person;
+    ausnc:role "primary";
+    ausnc:school "T";
+    foaf:age "15-16";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Original> a foaf:Document;
+    dc:extent 43008;
+    dc:identifier "MET3M1_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MET3M1_Sanitised.doc>;
+    dc:title "MET3M1_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Raw> a foaf:Document;
+    dc:extent 8092;
+    dc:identifier "MET3M1_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MET3M1_Sanitised-raw.txt>;
+    dc:title "MET3M1_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MET3M1_Sanitised#Text> a foaf:Document;
+    dc:extent 6133;
+    dc:identifier "MET3M1_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MET3M1_Sanitised-plain.txt>;
+    dc:title "MET3M1_Sanitised#Text";
+    dc:type "Text" .
+

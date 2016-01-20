@@ -1,0 +1,66 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MEBH2F2_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "BH2F.2";
+    ausnc:INTERVIEWERifrelevant "JC (RF3)";
+    ausnc:LanguagesSpokenathome "English (Mother can speak French)";
+    ausnc:STUDENTSINITIALS "RA";
+    ausnc:TRANSCRIBER "SE";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 656;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant wasn’t asked where her parents were born, mentions that
+grandparents were ‘also in the country’ when she visited London, but they
+could have also been travelling. She does however also mention ‘relatives
+and friends’ in England. She has been to England and America, and would
+really like to go back to America and see a lot more of it.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'_________________________________________________________________']";
+    dc:identifier "MEBH2F2_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/BH2F>,
+        <http://ns.ausnc.org.au/corpora/monash/person/RF3> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/BH2F> a foaf:Person;
+    ausnc:birthplace "Born in Australia? (Presumably, but the question was not actually asked)";
+    ausnc:role "primary";
+    ausnc:school "BH";
+    foaf:age "15-16";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/RF3> a foaf:Person .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Original> a foaf:Document;
+    dc:extent 46592;
+    dc:identifier "MEBH2F2_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MEBH2F2_Sanitised.doc>;
+    dc:title "MEBH2F2_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Raw> a foaf:Document;
+    dc:extent 8477;
+    dc:identifier "MEBH2F2_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MEBH2F2_Sanitised-raw.txt>;
+    dc:title "MEBH2F2_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MEBH2F2_Sanitised#Text> a foaf:Document;
+    dc:extent 5852;
+    dc:identifier "MEBH2F2_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MEBH2F2_Sanitised-plain.txt>;
+    dc:title "MEBH2F2_Sanitised#Text";
+    dc:type "Text" .
+

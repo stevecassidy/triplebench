@@ -1,0 +1,84 @@
+@prefix ausnc: <http://ns.ausnc.org.au/schemas/ausnc_md_model/> .
+@prefix corpus: <http://ns.ausnc.org.au/corpora/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix olac: <http://www.language-archives.org/OLAC/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.ausnc.org.au/corpora/monash/items/MESJ3FA_Sanitised> a ausnc:AusNCObject;
+    ausnc:CODE "SJ3F.A";
+    ausnc:FathersEthnicity "Born in Greece";
+    ausnc:LanguagesSpokenathome "Greek, English";
+    ausnc:MaternalGrandfathersEthnicity "Greek";
+    ausnc:MaternalGrandmothersEthnicity "Greek";
+    ausnc:MothersEthnicity "Born in Greece";
+    ausnc:PaternalGrandfathersEthnicity "Greek";
+    ausnc:PaternalGrandmothersEthnicity "Greek";
+    ausnc:STUDENTSINITIALS "KK";
+    ausnc:TRANSCRIBER "SE";
+    ausnc:audience ausnc:small_group;
+    ausnc:communication_context ausnc:face_to_face;
+    ausnc:document <http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Original>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Raw>,
+        <http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Text>;
+    ausnc:interactivity ausnc:dialogue;
+    ausnc:itemwordcount 517;
+    ausnc:mode ausnc:spoken;
+    ausnc:notes """The informant was born in Australia, and her parents were born in Greece
+(sounds like they came to Australia when they married). Both parents were
+educated in Greece, but left school at grade five level. They don’t speak
+very good English, although they use it at work (milkbar). The parents
+speak Greek to the children, and the informant answers in Greek, although
+she needs some English words. She is the youngest in the family, some 11
+years younger than her closest sibling. She only has one grandmother, who
+recently came from Greece, and she speaks Greek to her (the grandmother
+speaks no English). The informant speaks mainly English to her friends
+(with some Greek words). She is learning Greek at school and is proud of
+her ‘Greekness’, thinking of herself as Greek.""";
+    ausnc:plaintextversion <http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Text>;
+    ausnc:speech_style ausnc:spontaneous;
+    ausnc:transcription_notes "[u'']";
+    dc:identifier "MESJ3FA_Sanitised";
+    dc:isPartOf corpus:monash;
+    olac:discourse_type olac:interactive_discourse;
+    olac:language "eng";
+    olac:speaker <http://ns.ausnc.org.au/corpora/monash/person/SJ3F>,
+        <http://ns.ausnc.org.au/corpora/monash/person/SJ3FFa>,
+        <http://ns.ausnc.org.au/corpora/monash/person/SJ3FMo> .
+
+<http://ns.ausnc.org.au/corpora/monash/person/SJ3F> a foaf:Person;
+    ausnc:birthplace "Australia";
+    ausnc:role "primary";
+    ausnc:school "SJ";
+    foaf:age "15-16";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/SJ3FFa> a foaf:Person;
+    ausnc:relationship "father";
+    foaf:gender "male" .
+
+<http://ns.ausnc.org.au/corpora/monash/person/SJ3FMo> a foaf:Person;
+    ausnc:relationship "mother";
+    foaf:gender "female" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Original> a foaf:Document;
+    dc:extent 39936;
+    dc:identifier "MESJ3FA_Sanitised.doc";
+    dc:source <localhost:3000MONASH/MESJ3FA_Sanitised.doc>;
+    dc:title "MESJ3FA_Sanitised#Original";
+    dc:type "Original" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Raw> a foaf:Document;
+    dc:extent 5787;
+    dc:identifier "MESJ3FA_Sanitised-raw.txt";
+    dc:source <localhost:3000MONASH/MESJ3FA_Sanitised-raw.txt>;
+    dc:title "MESJ3FA_Sanitised#Raw";
+    dc:type "Raw" .
+
+<http://ns.ausnc.org.au/corpora/monash/source/MESJ3FA_Sanitised#Text> a foaf:Document;
+    dc:extent 2938;
+    dc:identifier "MESJ3FA_Sanitised-plain.txt";
+    dc:source <localhost:3000MONASH/MESJ3FA_Sanitised-plain.txt>;
+    dc:title "MESJ3FA_Sanitised#Text";
+    dc:type "Text" .
+
