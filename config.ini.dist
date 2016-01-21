@@ -7,3 +7,11 @@ RDF_GRAPH_FORMAT=nt
 # if no we send one file at a time
 BATCH_UPLOAD_RDF = yes
 BATCH_UPLOAD_SIZE = 100
+
+
+# should we query the store for the number of triples after every upload (yes/no)
+# this query takes time, so slows down the process for large tests
+# if we don't do this then we estimate the number of triples from the
+# number of lines, works for .nt files, divide by a fudge factor of 1.72 to
+# account for duplicate lines (measured on Austalk data set)
+QUERY_SIZE = no
