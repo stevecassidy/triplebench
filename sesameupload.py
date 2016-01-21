@@ -29,6 +29,8 @@ class SesameServer():
 
         self.url = url
         self.logfile = logfile
+        self.starttime = time.time()
+        self.triplecount = 0
 
         with open(self.logfile, "w") as fd:
             fd.write("Walltime,Files,Characters,Time,Triples\n")
@@ -69,8 +71,6 @@ class SesameServer():
     def upload_many(self, filenames):
         """Upload RDF data from multiple files in a single request"""
 
-        start = time.time()
-
         path = "/statements"
 
         data = ''
@@ -101,15 +101,8 @@ class SesameServer():
         result = self._get(req)
 
         print "Uploaded", len(filenames)
-        if configmanager.get_config('QUERY_SIZE', 'no') == 'yes':
-            size = self.size()
-        else:
-            # esitmate size from number of lines, 1.172 is a factor
-            # measured on austalk to account for duplicate triples
-            size = linecount/1.172
 
-        with open(self.logfile, "a") as fd:
-            fd.write("%f,%d,%d,%f,%d\n" % (time.time(), len(filenames), len(data), time.time()-start, size))
+        self.report(len(filenames), len(data), linecount)
 
         # check that return code is 204
         if result[0] == 204:
@@ -117,6 +110,20 @@ class SesameServer():
         else:
             raise Exception("Problem with upload of data, result code %s" % result[0])
 
+
+    def report(self, files, datasize, linecount):
+
+        if configmanager.get_config('QUERY_SIZE', 'no') == 'yes':
+            size = self.size()
+        else:
+            # esitmate size from number of lines, 1.172 is a factor
+            # measured on austalk to account for duplicate triples
+            size = linecount/1.172
+
+        self.triplecount += size
+
+        with open(self.logfile, "a") as fd:
+            fd.write("%f,%d,%d,%f,%d,%d\n" % (time.time(), files, datasize, time.time()-self.starttime, size, self.triplecount))
 
 
 
