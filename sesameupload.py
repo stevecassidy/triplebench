@@ -31,7 +31,7 @@ class SesameServer():
         self.logfile = logfile
 
         with open(self.logfile, "w") as fd:
-            fd.write("Files,Characters,Time,Triples\n")
+            fd.write("Walltime,Files,Characters,Time,Triples\n")
 
     def _get(self, url):
         """Send a get request to the given URL (which can also be a Request object)
@@ -74,9 +74,12 @@ class SesameServer():
         path = "/statements"
 
         data = ''
+        linecount = 0
         for filename in filenames:
             h = open(filename)
-            data += '\n'+ h.read() # add a newline in case there isn't one at the end of file
+            lines = h.readlines()
+            linecount += len(lines)
+            data = data + "\n" + "\n".join(lines)
             h.close()
 
         # need to replace true|false with quoted version
@@ -98,8 +101,15 @@ class SesameServer():
         result = self._get(req)
 
         print "Uploaded", len(filenames)
+        if configmanager.get_config('QUERY_SIZE', 'no') == 'yes':
+            size = self.size()
+        else:
+            # esitmate size from number of lines, 1.172 is a factor
+            # measured on austalk to account for duplicate triples
+            size = linecount/1.172
+
         with open(self.logfile, "a") as fd:
-            fd.write("%d,%d,%f,%d\n" % (len(filenames), len(data), time.time()-start, self.size()))
+            fd.write("%f,%d,%d,%f,%d\n" % (time.time(), len(filenames), len(data), time.time()-start, size))
 
         # check that return code is 204
         if result[0] == 204:
